@@ -26,13 +26,13 @@ This project was created as part of a **React JS Intern/Fresher Qualifier Task**
 
 ## 🚀 Live Demo
 
-🔗 **Hosted Link:** frontendUrl
+🔗 **Hosted Link:**(https://popx-react-qualifier.netlify.app/)
 
 ---
 
 ## 🗂️ GitHub Repository
 
-🔗 **Repository Link:** githubLink
+🔗 **Repository Link:** (https://github.com/RaviSharma8392/popx-auth-app)
 
 ---
 
