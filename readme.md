@@ -26,13 +26,13 @@ This project was created as part of a **React JS Intern/Fresher Qualifier Task**
 
 ## 🚀 Live Demo
 
-🔗 **Hosted Link:** [Add your hosted project link here]
+🔗 **Hosted Link:** frontendUrl
 
 ---
 
 ## 🗂️ GitHub Repository
 
-🔗 **Repository Link:** [Add your GitHub repository link here]
+🔗 **Repository Link:** githubLink
 
 ---
 
@@ -65,7 +65,7 @@ This project was created as part of a **React JS Intern/Fresher Qualifier Task**
 | Frontend  | React.js, React Router v6, Tailwind CSS, Axios |
 | Backend   | Node.js, Express.js, MongoDB, Mongoose         |
 | Auth      | bcryptjs, JSON Web Tokens _(optional)_         |
-| Dev Tools | Vite/CRA, Postman, VSCode, Netlify/Vercel      |
+| Dev Tools | Vite/CRA, Postman, VSCode, Netlify             |
 
 ---
 
@@ -90,7 +90,7 @@ This project was created as part of a **React JS Intern/Fresher Qualifier Task**
 │ ├── controllers/
 │ │ └── authController.js
 │ ├── models/
-│ │ └── userModel.js
+│ │ └── user.js
 │ └── routes/
 │ └── authRoutes.js
 ├── index.js
@@ -112,4 +112,35 @@ Create a .env file inside /frontend:
 
 VITE_API_URL=http://localhost:5000/api
 
+npm run dev
+
 👉 Runs on: http://localhost:5173
+🖥️ Backend Setup (Bonus)
+cd backend
+npm install
+
+Create a .env file inside /backend with:
+
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=yourSuperSecretKeyHere
+FRONTEND_URL=http://localhost:5173
+PORT=5000
+
+Run the backend server:
+
+npm run dev
+
+👉 Runs on: http://localhost:5000
+
+🔐 Environment Variables
+
+Ensure the following are set in your /backend/.env file:
+
+Variable Description
+MONGO_URI MongoDB connection string
+JWT_SECRET Secret key for JWT (if used)
+FRONTEND_URL URL of the frontend
+PORT Backend port (default: 5000)
+📄 License
+
+This project is for educational and evaluation purposes only.
